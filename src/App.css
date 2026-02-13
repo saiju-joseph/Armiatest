@@ -1,0 +1,149 @@
+.themecolor {
+   color: #1090cb;
+}
+
+.logo {
+   font-size: 1.8rem;
+}
+
+.logo:hover {
+   color: #1090cb;
+}
+
+.nav-link {
+   color: #000;
+   position: relative;
+}
+
+.navbar-nav {
+   gap: 1.8rem;
+}
+
+.navbar-nav .nav-link.active {
+   color: #1090cb;
+}
+
+.navbar-nav .nav-link.active::before {
+   content: '';
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background-color: #08d3bb;
+   position: absolute;
+   top: 0;
+   left: 0;
+   position: absolute;
+}
+
+.btn {
+   padding: 0.6rem 1.8rem;
+   border-radius: 6px;
+   font-size: 1rem;
+}
+
+.btn-theme {
+   background-color: #1090cb;
+   color: #fff;
+}
+
+.btn-theme-outline:hover,
+.btn-theme:hover {
+   background-color: #000;
+   color: #fff;
+}
+
+.btn-theme-outline {
+   background-color: #fff;
+   color: #08d3bb;
+   border: 1px solid #1090cb;
+}
+
+/* .btn-theme-outline:hover {
+   background-color: #1090cb;
+   color: #fff;
+} */
+
+.features-wrapper {
+   display: flex;
+   justify-content: space-between;
+   gap: 24px;
+}
+
+.section-features {
+   border-bottom: 1px solid #c7c7c7;
+}
+
+.feature-card {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.feature-icon {
+   width: 83px;
+   height: 83px;
+   border-radius: 16px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.feature-icon img {
+   width: 32px;
+   height: 32px;
+}
+
+.feature-content h4 {
+   font-size: 20px;
+   font-weight: 500;
+   color: #000000;
+}
+
+.feature-content p {
+   color: #969696;
+   font-size: 15px;
+   margin-bottom: 0;
+}
+
+.hero-banner {
+   /* background-image: url(../src/assets/bannerbg.png); */
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   background-color: #e7f4fa;
+   position: relative;
+}
+
+.hero-banner::before {
+   content: '';
+   background-image: url(../src/assets/hero-before.png);
+   background-repeat: no-repeat;
+   position: absolute;
+   bottom: 0;
+   top: 50%;
+   left: 0;
+   width: 55px;
+   transform: translate(0px, 55%);
+}
+
+.hero-banner::after {
+   content: '';
+   background-image: url(/src/assets/hero-after.png);
+   background-repeat: no-repeat;
+   position: absolute;
+   bottom: 0;
+   top: 50%;
+   right: 0;
+   width: 47px;
+   transform: translate(0px, -50%);
+}
+
+.hero-title {
+   font-weight: 600;
+   size: 2.5rem;
+   line-height: 1.4;
+}
+
+.hero-text {
+   color: #5c5c5c;
+   line-height: 2;
+}
