@@ -42,20 +42,24 @@ const Navbar = () => {
                         </Link>
                      </li>
                      <li className="nav-item">
-                        <Link to="/about" className="nav-link">
+                        <Link to="/services" className="nav-link">
                            Services
                         </Link>
                      </li>
                      <li className="nav-item">
-                        <Link to="/about" className="nav-link">
+                        <Link to="/blog" className="nav-link">
                            Blog
                         </Link>
                      </li>
                   </ul>
                   <form className="d-flex ps-lg-5">
-                     <button className="btn btn-theme" type="submit">
+                     <Link
+                        className="btn btn-theme"
+                        type="submit"
+                        to="/contact"
+                     >
                         Contact us
-                     </button>
+                     </Link>
                   </form>
                </div>
             </div>
