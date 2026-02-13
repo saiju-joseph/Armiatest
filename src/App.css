@@ -148,6 +148,39 @@
    line-height: 2;
 }
 
+.subscription-block {
+   background-color: #e8f4fa;
+}
+
+.subscription-block .star {
+   top: -50px;
+   left: 100px;
+   position: absolute;
+}
+
+.subscription-title {
+   font-weight: 600;
+   font-size: 30px;
+   color: #252525;
+   line-height: 1.5;
+}
+
+.subscription-field .form-control {
+   border-radius: 10px;
+   background-color: #fff;
+   padding: 1.2rem 1rem;
+}
+
+.subscription-field .btn {
+   padding: 1.2rem 2.3rem;
+   background-color: #000;
+}
+
+.subscription-field .btn:hover {
+   background-color: #1090cb;
+   color: #fff;
+}
+
 .footer-top-block {
    border-bottom: 1px solid #d2d2d2;
 }
