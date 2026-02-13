@@ -1,3 +1,4 @@
+import Clients from '../components/Clients';
 import Features from '../components/Features';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -8,6 +9,7 @@ const Home = () => {
       <>
          <Hero />
          <Features />
+         <Clients />
          <Subscription />
          <Footer />
       </>

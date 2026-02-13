@@ -148,6 +148,19 @@
    line-height: 2;
 }
 
+.title-clients {
+   color: #000;
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+.clents-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   align-items: center;
+   gap: 40px;
+}
+
 .subscription-block {
    background-color: #e8f4fa;
 }
