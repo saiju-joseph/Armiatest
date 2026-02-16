@@ -148,6 +148,94 @@
    line-height: 2;
 }
 
+.ser-title {
+   font-weight: 600;
+   size: 33px;
+   color: #252525;
+}
+
+.ser-subcaption {
+   color: #868686;
+}
+
+.ser-card-block {
+   position: relative;
+   max-width: 100%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas: 'gridtext gridimage';
+   gap: 80px;
+   align-items: center;
+}
+
+.ser-card-block.reverse {
+   grid-template-areas: 'gridimage gridtext';
+}
+
+.gridtext {
+   grid-area: gridtext;
+}
+
+.gridimage {
+   grid-area: gridimage;
+}
+
+.desc-block h2 {
+   font-size: 30px;
+   line-height: 1.3;
+   font-weight: 600;
+}
+
+.desc-block span {
+   color: #0d6efd;
+}
+
+.desc-block .desc {
+   color: #666;
+   max-width: 480px;
+   line-height: 1.6;
+}
+
+.desc-block .ser-card-text {
+   display: flex;
+   align-items: center;
+   gap: 1.2rem;
+}
+
+.desc-block .card-badge {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   background: #08d3bb;
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   justify-content: center;
+}
+
+.desc-block .card-badge img {
+   width: 40px;
+   height: 40px;
+}
+
+.desc-block .badge-desc p {
+   font-weight: 600;
+   color: #000;
+   font-size: 17px;
+}
+
+.badge-desc small {
+   color: #868686;
+}
+
+.ser-card-image img {
+   width: 100%;
+   max-width: 600px;
+   display: block;
+   margin: auto;
+}
+
 .title-clients {
    color: #000;
    font-size: 1.5rem;
@@ -159,6 +247,10 @@
    grid-template-columns: repeat(4, 1fr);
    align-items: center;
    gap: 40px;
+}
+
+.client-logo img {
+   max-width: 150px;
 }
 
 .subscription-block {
